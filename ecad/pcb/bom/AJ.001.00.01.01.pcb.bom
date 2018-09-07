@@ -1,0 +1,37 @@
+# PcbBOM Version 1.0
+# Date: Fri 07 Sep 2018 09:25:06 PM GMT UTC
+# Author: Bert Timmerman
+# Title: AJ.001.00.01.01 - PCB BOM
+# Quantity, Description, Value, RefDes
+# --------------------------------------------
+4,"MTG320____.fp","unknown",D A B C 
+3,"CON-SIL-254P-4N____.fp","unknown",J3 PORT_A J8 
+6,"CON-SIL-254P-8N____.fp","unknown",JP3 JP2 PORT_C PORT_B J7 J6 
+1,"CON-SIL-254P-6N____.fp","unknown",JP4 
+1,"CON-SIL-254P-10N____.fp","unknown",JP1 
+1,"DIPS28300____.fp","SX28AC/DP",U2 
+1,"SOT523____.fp","200mA",Q1 
+1,"CON-USB_Lumberg_2486-01__.fp","unknown",J1 
+3,"CON-SIL-254P-2N____.fp","unknown",J5 J4 J9 
+1,"SSOP28____.fp","FT232RL",U1 
+1,"CAPAE400X580N_Nichicon_WD__.fp","4.7uF/35V",C2 
+1,"CON-PWRJACK-3N_4UCON_18742__.fp","unknown",J2 
+1,"XTAL1280X490X430_Citizen_HCM49__.fp","50 MHz",X1 
+1,"LEDC200X125X80N_Osram_LGR971__.fp","Green",D4 
+1,"LEDC200X125X80N_Osram_LHR974__.fp","Red",D3 
+2,"LEDC200X125X80N_Osram_LYR976__.fp","Yellow",D1 D2 
+2,"SW_Conrad_1386949__.fp","NO",S1 S2 
+2,"CAPMP6032N____.fp","10uF/25V",C10 C12 
+2,"DIOMELF5025X25N_Diotec_SUF4002_DO213AB_.fp","SUF4002",D6 D5 
+6,"CAPC3216N____.fp","100nF",C6 C5 C3 C4 C11 C7 
+1,"CAPC3216N____.fp","10nF",C1 
+2,"CAPC3216N____.fp","15pF",C9 C8 
+2,"RESC3216N____.fp","1k",R9 R5 
+4,"RESC3216N____.fp","270",R4 R3 R2 R1 
+1,"RESC3216N____.fp","0",R7 
+1,"RESC3216N____.fp","1M",R6 
+1,"RESC3216N____.fp","10k",R8 
+2,"RESC3216N____.fp","150",R11 R10 
+1,"FUSC3216N____.fp","unknown",F1 
+1,"TO252-3N____.fp","LM1117/5V",U3 
+1,"INDC3216N____.fp","600@100MHz",L1 
