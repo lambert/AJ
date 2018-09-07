@@ -2,7 +2,8 @@ PROJNAME = AJ_ARDUINO_SX28AC_Board
 
 DESIGN = \
 	AJ.000.00.00.01.sch \
-	AJ.001.00.01.01.sch
+	AJ.001.00.01.01.sch \
+	AJ.002.00.01.01.sch
 
 DFS = \
 
