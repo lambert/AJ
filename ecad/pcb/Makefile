@@ -27,7 +27,7 @@ gerber: $(LAYOUTS)
 	pcb -x gerber --name-style oshpark $$S; \
 	done;
 	mv -u *.fab fab/
-	mv -u *.GBO fab/
+#	mv -u *.GBO fab/
 	mv -u *.GBL fab/
 	mv -u *.GBS fab/
 #	mv -u *.gbp fab/
