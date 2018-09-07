@@ -1,0 +1,33 @@
+Checking non-numbered parts...
+
+Checking duplicated references...
+ERROR: Duplicated reference U2.
+
+Checking nets with only one connection...
+ERROR: Net 'RTS' is connected to only one pin: U1:3 .
+ERROR: Net 'CTS' is connected to only one pin: U1:11 .
+ERROR: Net 'DTR' is connected to only one pin: U1:2 .
+ERROR: Net 'DSR' is connected to only one pin: U1:9 .
+ERROR: Net 'DCD' is connected to only one pin: U1:10 .
+ERROR: Net 'RI' is connected to only one pin: U1:6 .
+ERROR: Net 'TXDEN' is connected to only one pin: U1:13 .
+
+Checking pins without the 'pintype' attribute...
+NOTE: Found pins without the 'pintype' attribute: Q1:1 Q1:2 Q1:3 U3:2 U2:2 U3:1 U2:4 
+Checking type of pins connected to a net...
+WARNING: Pin(s) with pintype 'input/output': U1:26 
+	are connected by net 'GND'
+	to pin(s) with pintype 'power': U1:21 U1:7 U1:18 U1:25 J1:5 
+
+Checking unconnected pins...
+
+Checking slots...
+ERROR: Multislotted reference U3 has no slot attribute defined.
+
+Checking duplicated slots...
+ERROR: duplicated slot 1 of uref U2
+
+Checking unused slots...
+
+Found 1 warnings.
+Found 10 errors.

@@ -1,0 +1,68 @@
+v 20110115 2
+C 0 0 0 0 0 A3-sheet.sym
+{
+T 15400 1700 15 10 0 0 0 0 1
+device=none
+}
+T 9500 700 5 10 1 1 0 0 1
+device=ARDUINO_SX28AC
+T 9500 900 5 10 1 1 0 0 1
+comment=schematic
+T 9500 1100 5 10 1 1 0 0 1
+description=Oscillator Daughter Board
+T 9500 400 5 10 1 1 0 0 1
+file=AJ.002.00.01.01
+T 9500 100 5 10 1 1 0 0 1
+page=01
+T 11000 100 5 10 1 1 0 0 1
+pages=01
+T 13400 400 5 10 1 1 0 0 1
+revision=20180712
+T 13400 100 5 10 1 1 0 0 1
+author=Bert Timmerman
+C 8500 7700 1 180 1 CON-SIL-254P-4.sym
+{
+T 8700 5400 5 10 0 0 180 6 1
+footprint=CON-SIL-254P-4N____.fp
+T 8700 5600 5 10 0 0 180 6 1
+device=CONNECTOR
+T 8800 7600 5 10 1 1 0 0 1
+refdes=J1
+T 8500 7700 5 10 0 1 0 6 1
+vendor=Conrad
+}
+C 7800 6000 1 270 1 gnd-1.sym
+N 8500 6100 8100 6100 4
+T 9800 6100 9 10 1 0 0 6 1
+Vss
+T 9800 6500 9 10 1 0 0 6 1
+Vdd
+T 9800 7300 9 10 1 0 0 6 1
+OSC1
+T 9800 6900 9 10 1 0 0 6 1
+OSC2
+C 6900 7200 1 0 0 osc-3.sym
+{
+T 6800 7000 5 10 0 1 0 0 1
+device=OSCILLATOR
+T 7300 8100 5 10 1 1 0 0 1
+refdes=X1
+T 7900 8600 5 10 0 0 0 0 1
+footprint=DIP08300____.fp
+T 7300 7900 5 10 1 1 0 0 1
+value=Transko SX0550HT00ET  75 MHz
+}
+C 8100 6300 1 90 0 vcc-1.sym
+N 8100 6500 8500 6500 4
+N 8100 7300 8500 7300 4
+C 6800 8500 1 0 0 vcc-1.sym
+N 7000 8500 7000 8100 4
+C 8400 6800 1 0 0 nc.sym
+{
+T 8495 8710 5 8 0 0 0 0 1
+value=NoConnection
+T 8495 8910 5 8 0 0 0 0 1
+device=DRC_Directive
+T 8500 7300 5 8 0 0 0 0 1
+symversion=20140107
+}

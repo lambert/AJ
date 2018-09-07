@@ -1,0 +1,28 @@
+START header
+
+gEDA's netlist format
+Created specifically for testing of gnetlist
+
+END header
+
+START components
+
+X1 device=OSCILLATOR
+J1 device=CONNECTOR
+
+END components
+
+START renamed-nets
+
+
+END renamed-nets
+
+START nets
+
+GND : X1 2, J1 1 
+unnamed_net2 : X1 3, J1 4 
+Vcc : X1 4, J1 2 
+unnamed_net1 : J1 3 
+
+END nets
+
