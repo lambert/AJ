@@ -14,7 +14,7 @@ comment=schematic
 T 26200 1300 5 10 1 1 0 0 1
 description=Arduino - Parallax SX28AC Board
 T 30100 600 5 10 1 1 0 0 1
-revision=20180907
+revision=20180908
 T 30100 300 5 10 1 1 0 0 1
 author=Bert Timmerman
 }
@@ -138,6 +138,8 @@ T 17400 22100 5 10 1 1 0 0 1
 refdes=J3
 T 18100 22200 5 10 0 1 0 0 1
 vendor=Conrad
+T 18100 22200 5 10 0 0 0 0 1
+near=J9
 }
 C 18400 20100 1 0 0 gnd-1.sym
 N 18100 20600 18500 20600 4
@@ -2475,6 +2477,8 @@ T 16900 22800 5 10 0 0 0 0 1
 device=CONNECTOR
 T 17000 22100 5 10 1 1 0 0 1
 refdes=J9
+T 16700 21000 5 10 0 0 0 0 1
+near=J3
 }
 B 30300 20600 100 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 T 30800 20700 9 8 1 0 0 4 1
