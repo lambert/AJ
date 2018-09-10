@@ -1,5 +1,5 @@
 # PcbXY Version 1.0
-# Date: Fri 07 Sep 2018 09:25:06 PM GMT UTC
+# Date: Sun 09 Sep 2018 08:15:37 PM GMT UTC
 # Author: Bert Timmerman
 # Title: AJ.001.00.01.01 - PCB X-Y
 # RefDes, Description, Value, X, Y, rotation, top/bottom
@@ -9,7 +9,7 @@ D,"MTG320____.fp","unknown",22.86,10.16,0,top
 A,"MTG320____.fp","unknown",24.13,58.42,0,top
 B,"MTG320____.fp","unknown",74.93,43.18,0,top
 C,"MTG320____.fp","unknown",74.93,13.97,0,top
-J3,"CON-SIL-254P-4N____.fp","unknown",73.66,29.21,0,top
+J3,"CON-SIL-254P-4N____.fp","unknown",71.12,29.21,0,top
 JP3,"CON-SIL-254P-8N____.fp","unknown",45.72,10.16,90,top
 JP2,"CON-SIL-254P-8N____.fp","unknown",63.50,58.42,90,top
 JP4,"CON-SIL-254P-6N____.fp","unknown",66.04,10.16,90,top
@@ -18,7 +18,7 @@ PORT_A,"CON-SIL-254P-4N____.fp","unknown",41.91,21.59,90,top
 PORT_C,"CON-SIL-254P-8N____.fp","unknown",52.07,36.83,270,top
 PORT_B,"CON-SIL-254P-8N____.fp","unknown",59.69,21.59,90,top
 U2,"DIPS28300____.fp","SX28AC/DP",52.07,29.21,90,top
-Q1,"SOT523____.fp","200mA",26.74,32.50,180,top
+Q1,"SOT523____.fp","200mA",26.26,32.50,0,top
 J1,"CON-USB_Lumberg_2486-01__.fp","unknown",14.43,45.72,270,top
 J5,"CON-SIL-254P-2N____.fp","unknown",36.83,38.10,270,top
 J4,"CON-SIL-254P-2N____.fp","unknown",39.37,38.10,270,top
@@ -29,19 +29,19 @@ C2,"CAPAE400X580N_Nichicon_WD__.fp","4.7uF/35V",30.50,26.00,270,top
 J2,"CON-PWRJACK-3N_4UCON_18742__.fp","unknown",17.65,14.28,270,top
 X1,"XTAL1280X490X430_Citizen_HCM49__.fp","50 MHz",51.50,44.00,0,top
 J6,"CON-SIL-254P-8N____.fp","unknown",59.69,19.05,90,top
-J9,"CON-SIL-254P-2N____.fp","unknown",71.12,26.67,90,top
+J9,"CON-SIL-254P-2N____.fp","unknown",73.66,26.67,90,top
 D4,"LEDC200X125X80N_Osram_LGR971__.fp","Green",26.50,50.50,0,top
 D3,"LEDC200X125X80N_Osram_LHR974__.fp","Red",26.50,48.00,0,top
 D1,"LEDC200X125X80N_Osram_LYR976__.fp","Yellow",26.50,53.00,0,top
 D2,"LEDC200X125X80N_Osram_LYR976__.fp","Yellow",26.50,55.50,0,top
 S1,"SW_Conrad_1386949__.fp","NO",13.97,55.88,270,top
-S2,"SW_Conrad_1386949__.fp","NO",71.88,38.35,270,top
+S2,"SW_Conrad_1386949__.fp","NO",69.22,38.10,270,top
 C10,"CAPMP6032N____.fp","10uF/25V",28.00,16.50,270,top
 C12,"CAPMP6032N____.fp","10uF/25V",33.00,16.50,270,top
 D6,"DIOMELF5025X25N_Diotec_SUF4002_DO213AB_.fp","SUF4002",14.00,36.50,180,top
 D5,"DIOMELF5025X25N_Diotec_SUF4002_DO213AB_.fp","SUF4002",20.00,25.50,270,top
-C6,"CAPC3216N____.fp","100nF",21.50,35.00,180,top
-C5,"CAPC3216N____.fp","100nF",21.50,32.50,180,top
+C6,"CAPC3216N____.fp","100nF",21.50,34.25,180,top
+C5,"CAPC3216N____.fp","100nF",21.50,31.75,180,top
 C3,"CAPC3216N____.fp","100nF",32.00,42.50,0,top
 C1,"CAPC3216N____.fp","10nF",32.00,45.00,0,top
 C4,"CAPC3216N____.fp","100nF",26.50,35.00,0,top
