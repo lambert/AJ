@@ -38,7 +38,7 @@ gerber: $(LAYOUTS)
 	mv -u *.GTS fab/
 	mv -u *.TXT fab/
 	mv -u *.XLN fab/
-	mv -u *.G?L fab/
+#	mv -u *.G?L fab/
 
 eyecandy: $(LAYOUTS)
 	for S in $(LAYOUTS); \
