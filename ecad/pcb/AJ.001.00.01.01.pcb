@@ -2267,7 +2267,7 @@ Element["lock" "INDC3216N____.fp" "L1" "600@100MHz" 32.0000mm 26.0000mm -31.0000
 
 	)
 
-Element["onsolder,lock" "CC-BY-SA.png" "" "" 2570.00mil 685.00mil 0.0000 250.00mil 2 100 "onsolder"]
+Element["onsolder,lock" "CC-BY-SA.fp" "" "" 2570.00mil 685.00mil 0.0000 250.00mil 2 100 "onsolder"]
 (
 	ElementLine [-2.46mil 7.38mil -2.46mil 7.38mil 4.91mil]
 	ElementLine [-2.46mil 155.01mil -2.46mil 155.01mil 4.91mil]
@@ -3695,7 +3695,7 @@ Element["onsolder,lock" "CC-BY-SA.png" "" "" 2570.00mil 685.00mil 0.0000 250.00m
 
 	)
 
-Element["onsolder,lock" "NL_contour_filled_150x188.png" "" "" 1300.00mil 380.00mil 0.0000 250.00mil 2 100 "onsolder"]
+Element["onsolder,lock" "NL_contour_filled_150x188.fp" "" "" 1300.00mil 380.00mil 0.0000 250.00mil 2 100 "onsolder"]
 (
 	ElementLine [-17.22mil 706.20mil -17.22mil 706.20mil 4.91mil]
 	ElementLine [-22.14mil 691.43mil -22.14mil 691.43mil 4.91mil]
