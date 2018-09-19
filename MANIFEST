@@ -1,5 +1,19 @@
+MANIFEST
 Makefile
 README.md
+docs/purchase/OSH_Park/AJ-001-00/AJ-001-00.zip
+docs/purchase/OSH_Park/AJ-001-00/AJ-001-00_board_outline.png
+docs/purchase/OSH_Park/AJ-001-00/AJ-001-00_bottom.png
+docs/purchase/OSH_Park/AJ-001-00/AJ-001-00_bottom_copper.png
+docs/purchase/OSH_Park/AJ-001-00/AJ-001-00_bottom_large.png
+docs/purchase/OSH_Park/AJ-001-00/AJ-001-00_bottom_silk_screen.png
+docs/purchase/OSH_Park/AJ-001-00/AJ-001-00_bottom_solder_mask.png
+docs/purchase/OSH_Park/AJ-001-00/AJ-001-00_drills.png
+docs/purchase/OSH_Park/AJ-001-00/AJ-001-00_top.png
+docs/purchase/OSH_Park/AJ-001-00/AJ-001-00_top_copper.png
+docs/purchase/OSH_Park/AJ-001-00/AJ-001-00_top_large.png
+docs/purchase/OSH_Park/AJ-001-00/AJ-001-00_top_silk_screen.png
+docs/purchase/OSH_Park/AJ-001-00/AJ-001-00_top_solder_mask.png
 docs/purchase/OSH_Park/AJ-001-00/README.md
 ecad/Makefile
 ecad/gschem/AJ.000.00.00.01.sch
@@ -36,7 +50,6 @@ ecad/pcb/fab/AJ.001.00.01.01.GTS
 ecad/pcb/fab/AJ.001.00.01.01.TXT
 ecad/pcb/fab/AJ.001.00.01.01.XLN
 ecad/pcb/fab/AJ.001.00.01.01.fab
-ecad/pcb/fab/AJ.001.00.01.01.gbp
 ecad/pcb/fab/AJ.001.00.01.01.gtp
 ecad/pcb/fab/AJ.001.00.01.01.gvp
 ecad/pcb/plotfiles/AJ.001.00.01.01.pcb.ps
