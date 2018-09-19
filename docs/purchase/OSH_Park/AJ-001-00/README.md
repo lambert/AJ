@@ -253,7 +253,7 @@ out our Eagle-specific [import-bmp script instructions](http://docs.oshpark.com/
 
 ## Board Outline
 
-![Board Outline](AJ-001-00_top_board_outline.png)
+![Board Outline](AJ-001-00_board_outline.png)
 
 Rendered from "AJ.001.00.01.01.GKO"
 
