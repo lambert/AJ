@@ -118,7 +118,7 @@ There should be no dimension or measurement ruler
 
 Rendered from "AJ.001.00.01.01.XLN" , "AJ.001.00.01.01.TXT"
 
-![Drills](AJ-001-00_drill.png)
+![Drills](AJ-001-00_drills.png)
 
 Drills should show up as white circles on a purple background.
 
