@@ -1,5 +1,5 @@
 # PcbBOM Version 1.0
-# Date: Sat 15 Sep 2018 03:09:02 PM GMT UTC
+# Date: Wed 24 Oct 2018 07:53:50 PM GMT UTC
 # Author: Bert Timmerman
 # Title: AJ.001.00.01.01 - PCB BOM
 # Quantity, Description, Value, RefDes
@@ -35,5 +35,5 @@
 1,"FUSC3216N____.fp","unknown",F1 
 1,"TO252-3N____.fp","LM1117/5V",U3 
 1,"INDC3216N____.fp","600@100MHz",L1 
-1,"CC-BY-SA.fp","(unknown)",(unknown) 
-1,"NL_contour_filled_150x188.fp","(unknown)",(unknown) 
+1,"CC-BY-SA.fp","(unknown)",Z1 
+1,"NL_contour_filled_150x188.fp","(unknown)",Z2 
