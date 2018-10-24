@@ -14,7 +14,7 @@ comment=schematic
 T 26200 1300 5 10 1 1 0 0 1
 description=Arduino - Parallax SX28AC Board
 T 30100 600 5 10 1 1 0 0 1
-revision=20180916
+revision=20181024
 T 30100 300 5 10 1 1 0 0 1
 author=Bert Timmerman
 }
@@ -66,6 +66,8 @@ T 20800 16600 5 10 0 1 0 0 1
 vendor=Conrad
 T 20800 16600 5 10 0 1 0 0 1
 vendor_PN=179994
+T 20800 16600 5 10 0 1 0 0 1
+manufacturer_part_number=001-2-028-3-B1STF-XT0
 }
 C 17600 17400 1 0 0 SX28AC_DP_pwr.sym
 {
@@ -85,6 +87,8 @@ T 17600 17400 5 10 0 1 0 0 1
 vendor=Conrad
 T 17600 17400 5 10 0 1 0 0 1
 vendor_PN=179994
+T 17600 17400 5 10 0 1 0 0 1
+manufacturer_part_number=001-2-028-3-B1STF-XT0
 }
 C 17500 18800 1 0 0 5V-plus-1.sym
 C 17600 16400 1 0 0 gnd-1.sym
@@ -140,6 +144,12 @@ T 18100 22200 5 10 0 1 0 0 1
 vendor=Conrad
 T 18100 22200 5 10 0 0 0 0 1
 near=J9
+T 18100 22200 5 10 0 1 0 0 1
+manufacturer=MPE Garry
+T 18100 22200 5 10 0 1 0 0 1
+manufacturer_part_number=087-1-004-0-S-XS0-1260
+T 18100 22200 5 10 0 1 0 0 1
+vendor_PN=733940
 }
 C 18400 20100 1 0 0 gnd-1.sym
 N 18100 20600 18500 20600 4
@@ -216,13 +226,13 @@ near=X1
 T 19100 11800 5 10 0 0 0 0 1
 footprint=CAPC3216N____.fp
 T 19100 11800 5 10 0 1 0 0 1
-vendor=Conrad
+vendor=Digi-Key
 T 19100 11800 5 10 0 1 0 0 1
 manufacturer=Kemet
 T 19100 11800 5 10 0 1 0 0 1
-manufacturer_part_number=C0805C150J5GACTU
+manufacturer_part_number=C1206C150J5GACTU
 T 19100 11800 5 10 0 1 0 0 1
-vendor_PN=457991
+vendor_PN=399-1194-1-ND
 }
 C 20600 11800 1 90 0 capacitor-1.sym
 {
@@ -239,13 +249,13 @@ near=X1
 T 20600 11800 5 10 0 0 0 0 1
 footprint=CAPC3216N____.fp
 T 20600 11800 5 10 0 1 0 0 1
-vendor=Conrad
+vendor=Digi-Key
 T 20600 11800 5 10 0 1 0 0 1
 manufacturer=Kemet
 T 20600 11800 5 10 0 1 0 0 1
-manufacturer_part_number=C0805C150J5GACTU
+manufacturer_part_number=C1206C150J5GACTU
 T 20600 11800 5 10 0 1 0 0 1
-vendor_PN=457991
+vendor_PN=399-1194-1-ND
 }
 C 19600 11200 1 0 0 gnd-1.sym
 C 19200 14700 1 0 0 resistor-2.sym
@@ -303,9 +313,9 @@ value=50 MHz
 T 19300 13000 5 10 0 0 0 0 1
 near=U1
 T 19300 13000 5 10 0 1 0 0 1
-vendor=Mouser
+vendor=Digi-Key
 T 19300 13000 5 10 0 0 0 0 1
-vendor_PN=695-HCM49-50-U
+vendor_PN=300-6160-1-ND
 T 19300 13000 5 10 0 0 0 0 1
 footprint=XTAL1280X490X430_Citizen_HCM49__.fp
 }
@@ -357,6 +367,10 @@ T 1700 16300 5 10 0 0 0 0 1
 vendor_PN=738560
 T 1700 16300 5 10 0 1 0 0 1
 device=CONNECTOR
+T 1700 16300 5 10 0 1 0 0 1
+manufacturer=Lumberg
+T 1700 16300 5 10 0 1 0 0 1
+manufacturer_part_number=2486-01
 }
 N 3000 17900 2800 17900 4
 C 2900 16800 1 0 0 gnd-1.sym
@@ -378,9 +392,9 @@ symversion=20180429
 T 5700 14800 5 10 0 1 0 0 1
 manufacturer_part_number=FT232RL
 T 5700 14800 5 10 0 1 0 0 1
-vendor=Mouser
+vendor=Digi-Key
 T 5700 14800 5 10 0 1 0 0 1
-vendor_PN=895-FT232RL
+vendor_PN=768-1306-ND
 T 5700 14800 5 10 0 1 0 0 1
 manufacturer=FTDI
 }
@@ -594,11 +608,11 @@ manufacturer=Murata
 T 3500 21700 5 10 0 1 0 0 1
 manufacturer_part_number=BLM31PG601SN1L
 T 3500 21700 5 10 0 1 0 0 1
-vendor=Mouser
+vendor=Digi-Key
 T 3400 21600 5 10 1 1 0 0 1
 value=600@100MHz
 T 3500 21700 5 10 0 1 0 0 1
-vendor_PN=81-BLM31PG601SN1
+vendor_PN=490-1057-1-ND
 }
 C 3100 21600 1 270 0 capacitor-1.sym
 {
@@ -698,7 +712,7 @@ refdes=Q1
 T 6100 21200 5 10 0 0 0 0 1
 footprint=SOT523____.fp
 T 6100 21200 5 10 0 1 0 0 1
-vendor=Mouser
+vendor=Digi-Key
 T 6100 21200 5 10 0 1 0 0 1
 manufacturer_part_number=RZE002P02TL
 T 6100 21200 5 10 0 1 0 0 1
@@ -708,7 +722,7 @@ value=200mA
 T 6100 21200 5 10 0 1 0 0 1
 device=FET
 T 6100 21200 5 10 0 1 0 0 1
-vendor_PN=755-RZE002P02TL
+vendor_PN=RZE002P02TLCT-ND
 }
 N 6500 20800 6500 21200 4
 C 6400 19400 1 0 0 gnd-1.sym
@@ -970,6 +984,12 @@ T 2700 7600 5 10 0 1 0 0 1
 vendor=Conrad
 T 2700 8000 5 10 1 1 0 0 1
 value=Yellow
+T 2700 7600 5 10 0 1 0 0 1
+manufacturer=Osram
+T 2700 7600 5 10 0 1 0 0 1
+manufacturer_part_number=LYR976
+T 2700 7600 5 10 0 1 0 0 1
+vendor_PN=819967
 }
 C 5400 7600 1 90 0 led-3.sym
 {
@@ -983,6 +1003,12 @@ T 5400 7600 5 10 0 1 0 0 1
 vendor=Conrad
 T 5400 8000 5 10 1 1 0 0 1
 value=Yellow
+T 5400 7600 5 10 0 1 0 0 1
+manufacturer=Osram
+T 5400 7600 5 10 0 1 0 0 1
+manufacturer_part_number=LYR976
+T 5400 7600 5 10 0 1 0 0 1
+vendor_PN=819967
 }
 C 8100 7600 1 90 0 led-3.sym
 {
@@ -996,6 +1022,12 @@ T 8100 7600 5 10 0 1 0 0 1
 vendor=Conrad
 T 8100 8000 5 10 1 1 0 0 1
 value=Red
+T 8100 7600 5 10 0 1 0 0 1
+manufacturer=Osram
+T 8100 7600 5 10 0 1 0 0 1
+manufacturer_part_number=LHR974
+T 8100 7600 5 10 0 1 0 0 1
+vendor_PN=819938
 }
 N 10600 6100 10400 6100 4
 {
@@ -1042,6 +1074,12 @@ T 10800 7600 5 10 0 1 0 0 1
 vendor=Conrad
 T 10800 8000 5 10 1 1 0 0 1
 value=Green
+T 10800 7600 5 10 0 1 0 0 1
+manufacturer=Osram
+T 10800 7600 5 10 0 1 0 0 1
+manufacturer_part_number=LGR971
+T 10800 7600 5 10 0 1 0 0 1
+vendor_PN=819934
 }
 C 5000 11600 1 270 0 capacitor-2.sym
 {
@@ -1147,6 +1185,8 @@ T 27500 11600 5 10 0 0 0 0 1
 symversion=20160306
 T 27300 7100 5 10 0 1 0 0 1
 vendor=Sparkfun
+T 27300 7100 5 10 0 1 0 0 1
+vendor_PN=PRT-11417
 }
 C 20000 4000 1 0 1 CON-SIL-254P-6.sym
 {
@@ -1160,6 +1200,8 @@ T 19800 7000 5 10 0 0 0 6 1
 symversion=20131217
 T 20000 4000 5 10 0 1 0 0 1
 vendor=Sparkfun
+T 20000 4000 5 10 0 1 0 0 1
+vendor_PN=PRT-11417
 }
 C 27300 3200 1 0 0 CON-SIL-254P-8.sym
 {
@@ -1173,6 +1215,8 @@ T 27500 7000 5 10 0 0 0 0 1
 symversion=20131217
 T 27300 3200 5 10 0 1 0 0 1
 vendor=Sparkfun
+T 27300 3200 5 10 0 1 0 0 1
+vendor_PN=PRT-11417
 }
 T 29200 19500 9 8 1 0 0 4 1
 JP3
@@ -1194,6 +1238,8 @@ T 19800 10900 5 10 0 0 0 6 1
 symversion=20131217
 T 20000 7100 5 10 0 1 0 0 1
 vendor=Sparkfun
+T 20000 7100 5 10 0 1 0 0 1
+vendor_PN=PRT-11417
 }
 T 26900 18500 9 14 1 0 0 0 1
 CONNECTORS & MOUNTING HOLES
@@ -1424,6 +1470,12 @@ T 21600 7000 5 10 0 0 0 6 1
 symversion=20131217
 T 21800 3200 5 10 0 1 0 0 1
 vendor=Conrad
+T 21800 3200 5 10 0 1 0 0 1
+manufacturer=MPE Garry
+T 21800 3200 5 10 0 1 0 0 1
+manufacturer_part_number=087-1-008-0-S-XS0-1260
+T 21800 3200 5 10 0 1 0 0 1
+vendor_PN=734023
 }
 C 25500 3200 1 0 0 CON-SIL-254P-8.sym
 {
@@ -1437,6 +1489,12 @@ T 25700 7000 5 10 0 0 0 0 1
 symversion=20131217
 T 25500 3200 5 10 0 1 0 6 1
 vendor=Conrad
+T 25500 3200 5 10 0 1 0 0 1
+manufacturer=MPE Garry
+T 25500 3200 5 10 0 1 0 0 1
+manufacturer_part_number=087-1-008-0-S-XS0-1260
+T 25500 3200 5 10 0 1 0 0 1
+vendor_PN=734023
 }
 N 25500 3600 25300 3600 4
 {
@@ -1528,6 +1586,12 @@ T 26000 9000 5 10 1 1 0 6 1
 refdes=PORT_A
 T 25500 9100 5 10 0 1 0 6 1
 vendor=Conrad
+T 25500 9100 5 10 0 1 0 0 1
+manufacturer_part_number=087-1-004-0-S-XS0-1260
+T 25500 9100 5 10 0 1 0 0 1
+manufacturer=MPE Garry
+T 25500 9100 5 10 0 1 0 0 1
+vendor_PN=733940
 }
 N 25500 7900 25300 7900 4
 {
@@ -1676,6 +1740,10 @@ T 3900 12000 5 10 0 0 0 0 1
 footprint=FUSC3216N____.fp
 T 3900 12000 5 10 0 0 0 0 1
 manufacturer=Littlefuse
+T 3900 12000 5 10 0 1 0 0 1
+vendor_PN=F2110CT-ND
+T 3900 12000 5 10 0 1 0 0 1
+manufacturer_part_number=1206L025YR
 }
 N 4800 12000 6600 12000 4
 {
@@ -1698,6 +1766,12 @@ T 26700 7000 5 10 0 0 0 6 1
 symversion=20131217
 T 26900 3200 5 10 0 1 0 0 1
 vendor=Conrad
+T 26900 3200 5 10 0 1 0 0 1
+manufacturer=MPE Garry
+T 26900 3200 5 10 0 1 0 0 1
+manufacturer_part_number=087-1-008-0-S-XS0-1260
+T 26900 3200 5 10 0 1 0 0 1
+vendor_PN=734023
 }
 N 26900 6400 27300 6400 4
 N 26900 6000 27300 6000 4
@@ -1750,6 +1824,12 @@ T 26400 9000 5 10 1 1 0 0 1
 refdes=J8
 T 26900 9100 5 10 0 1 0 0 1
 vendor=Conrad
+T 26900 9100 5 10 0 1 0 0 1
+manufacturer=MPE Garry
+T 26900 9100 5 10 0 1 0 0 1
+manufacturer_part_number=087-1-004-0-S-XS0-1260
+T 26900 9100 5 10 0 1 0 0 1
+vendor_PN=733940
 }
 N 26900 7500 27300 7500 4
 N 26900 7900 27300 7900 4
@@ -1881,6 +1961,10 @@ T 800 12100 5 8 0 0 0 0 1
 footprint=CON-PWRJACK-3N_4UCON_18742__.fp
 T 700 10800 5 10 0 1 0 0 1
 vendor=iPrototype
+T 700 10800 5 10 0 1 0 0 1
+manufacturer=4UCON
+T 700 10800 5 10 0 1 0 0 1
+manufacturer_part_number=18742
 }
 N 1900 11500 1500 11500 4
 N 1900 10900 1500 10900 4
@@ -2063,6 +2147,12 @@ T 20600 7000 5 10 0 0 0 0 1
 symversion=20131217
 T 20400 3200 5 10 0 1 0 0 1
 vendor=Conrad
+T 20400 3200 5 10 0 1 0 0 1
+manufacturer=MPE Garry
+T 20400 3200 5 10 0 1 0 0 1
+manufacturer_part_number=087-1-008-0-S-XS0-1260
+T 20400 3200 5 10 0 1 0 0 1
+vendor_PN=734023
 }
 N 20400 4000 20200 4000 4
 {
@@ -2114,6 +2204,14 @@ T 19000 15500 5 10 1 1 0 0 1
 refdes=J4
 T 18900 16500 5 8 0 0 0 0 1
 footprint=CON-SIL-254P-2N____.fp
+T 18800 15200 5 10 0 1 0 0 1
+vendor=Conrad
+T 18800 15200 5 10 0 1 0 0 1
+manufacturer=MPE Garry
+T 18800 15200 5 10 0 1 0 0 1
+manufacturer_part_number=087-1-002-0-S-XS0-1260
+T 18800 15200 5 10 0 1 0 0 1
+vendor_PN=733900
 }
 C 20300 15200 1 0 0 CON-solder-jumper_NO.sym
 {
@@ -2125,6 +2223,14 @@ T 20500 15500 5 10 1 1 0 0 1
 refdes=J5
 T 20400 16500 5 8 0 0 0 0 1
 footprint=CON-SIL-254P-2N____.fp
+T 20300 15200 5 10 0 1 0 0 1
+vendor=Conrad
+T 20300 15200 5 10 0 1 0 0 1
+manufacturer=MPE Garry
+T 20300 15200 5 10 0 1 0 0 1
+manufacturer_part_number=087-1-002-0-S-XS0-1260
+T 20300 15200 5 10 0 1 0 0 1
+vendor_PN=733900
 }
 N 15600 21400 15400 21400 4
 {
@@ -2156,6 +2262,14 @@ T 17000 22100 5 10 1 1 0 0 1
 refdes=J9
 T 16700 21000 5 10 0 0 0 0 1
 near=J3
+T 16700 21000 5 10 0 1 0 0 1
+vendor=Conrad
+T 16700 21000 5 10 0 1 0 0 1
+manufacturer=MPE Garry
+T 16700 21000 5 10 0 1 0 0 1
+manufacturer_part_number=087-1-002-0-S-XS0-1260
+T 16700 21000 5 10 0 1 0 0 1
+vendor_PN=733900
 }
 B 30200 20600 100 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 T 30800 20700 9 8 1 0 0 4 1
