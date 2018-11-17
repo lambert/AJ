@@ -4,7 +4,7 @@ Author: Bert Timmerman
 
 Organisation: Me Organized ??
 
-Date: 20180920
+Date: 20181117
 
 ## Specification.
 
@@ -16,11 +16,13 @@ Date: 20180920
 
 ID  | Description               |
 ----|---------------------------|
+.   | .                         |
 
 ### Modes of operation.
 
 ID  | Description                                  |
 ----|----------------------------------------------|
+.   | .                                            |
 
 ### Inputs.
 
@@ -52,13 +54,13 @@ ID   | Description                          | Location |
 
 ID   | Description                          | Location |
 -----|--------------------------------------|----------|
-.    | .                                    | .        |
+F1   | Littlefuse	1206L025YR It = 500 mA    | Top      |
 
 ### Replaceable parts.
 
 ID   | Description                          | Location |
 -----|--------------------------------------|----------|
-.    | .                                    | .        |
+U1   | SX28AC/DP-G                          | Top      |
 
 ### Connectors.
 
@@ -84,7 +86,7 @@ friends" (geda-gaf).
 Attributes for symbols are managed either from within gschem, or with
 gattrib, the attribute editing application from the same suite of tools.
 
-Schematic files can be found here: ![link to schematic files](../ecad/gschem/)
+Schematic files can be found here: [link to schematic files](../ecad/gschem/)
 
 #### Design Rule Check (DRC).
 
@@ -95,13 +97,13 @@ missing device values, shorted nets and not connected pins on symbols.
 The gnetlist backend "geda" will list components, renamed nets, and
 resulting connectivity of nets in a structured list.
 
-DRC files can be found here: ![link to DRC files](../ecad/gschem/DRC/)
+DRC files can be found here: [link to DRC files](../ecad/gschem/DRC/)
 
 #### Bill Of materials (BOM).
 
 Preliminary BOMs are generated from schematics by running gnetlist with the "bom" backend.
 
-BOM files can be found here: ![link to BOM files](../ecad/gschem/BOM)
+BOM files can be found here: [link to BOM files](../ecad/gschem/BOM)
 
 ### Calculations.
 
@@ -116,14 +118,14 @@ BOM files can be found here: ![link to BOM files](../ecad/gschem/BOM)
 Schematic representations of circuits for simulation were prepared with
 gschem.
 
-Schematic files can be found here: ![link to schematic files](../ecad/gschem/)
+Schematic files can be found here: [link to schematic files](../ecad/gschem/)
 
 ##### Input files.
 
 Various circuit files (*.ckt) may contain subcircuits and calls to
 models included in the gnucap software package.
 
-Input files can be found here: ![link to schematic files](../ecad/gnucap/)
+Input files can be found here: [link to schematic files](../ecad/gnucap/)
 
 ##### Data files.
 
@@ -168,7 +170,7 @@ friends" (geda-gaf).
 Attributes for symbols are managed either from within gschem, or with
 gattrib, the attribute editing application from the same suite of tools.
 
-Schematic files can be found here: ![link to schematic files](../ecad/gschem/)
+Schematic files can be found here: [link to schematic files](../ecad/gschem/)
 
 #### Design Rule Check (DRC).
 
@@ -179,7 +181,7 @@ missing device values, shorted nets and not connected pins on symbols.
 The gnetlist backend "geda" will list components, renamed nets, and
 resulting connectivity of nets in a structured list.
 
-DRC files can be found here: ![link to DRC files](../ecad/gschem/DRC/)
+DRC files can be found here: [link to DRC files](../ecad/gschem/DRC/)
 
 #### Netlists.
 
@@ -189,7 +191,7 @@ the schematics.
 Pin renaming for the pcb layout editor is generated with gnetlist from
 the schematics.
 
-Netlist files can be found here: ![link to DRC files](../ecad/gschem/pcb_netlist/)
+Netlist files can be found here: [link to DRC files](../ecad/gschem/pcb_netlist/)
 
 #### Bill Of Materials.
 
@@ -199,11 +201,11 @@ Netlist files can be found here: ![link to DRC files](../ecad/gschem/pcb_netlist
 
 #### Layout files.
 
-![link to layout files](../ecad/pcb/)
+[link to layout files](../ecad/pcb/)
 
 #### Visual Testing files.
 
-![link to eyecandy](../ecad/pcb/eyecandy/)
+[link to eyecandy](../ecad/pcb/eyecandy/)
 
 #### Design Rules Check.
 
@@ -231,17 +233,17 @@ Netlist files can be found here: ![link to DRC files](../ecad/gschem/pcb_netlist
 
 #### Quotations.
 
-![link to SeeedStudio fabrication services](purchase/SeeedStudio/fabrication_services.md)
+[link to SeeedStudio fabrication services](purchase/SeeedStudio/fabrication_services.md)
 
-![link to OSH Park fabrication services](purchase/OSH_Park/fabrication_services.md)
+[link to OSH Park fabrication services](purchase/OSH_Park/fabrication_services.md)
 
 #### SeeedStudio.
 
-![link to SeeedStudio directory](purchase/SeeedStudio/)
+[link to SeeedStudio directory](purchase/SeeedStudio/)
 
 #### OSH Park.
 
-![link to OSH Park directory](purchase/OSH_Park/)
+[link to OSH Park directory](purchase/OSH_Park/)
 
 #### QA/QC Testing.
 
