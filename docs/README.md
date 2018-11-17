@@ -6,6 +6,8 @@ Organisation: Me Organized ??
 
 Date: 20181117
 
+License: [look here](../LICENSE.md)
+
 ## Specification.
 
 ### Description.
@@ -72,6 +74,7 @@ ID   | Description                          | Location |
 
 Description           | Dimensions                      |
 ----------------------|---------------------------------|
+.                     | .                               |
 
 ## Basic Design.
 
