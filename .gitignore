@@ -1,0 +1,7 @@
+.*~
+docs/*~
+ecad/gschem/plotfiles
+ecad/gschem/*~
+ecad/pcb/*.save
+src/*~
+src/*.bak
