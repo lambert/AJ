@@ -1,5 +1,7 @@
 # Scenix SX28AC/DP Board
 
+![Parallax logo](Parallax_Inc_logo.png)
+
 Author: Bert Timmerman
 
 Organisation: Me Organized ??
@@ -7,6 +9,8 @@ Organisation: Me Organized ??
 Date: 20181117
 
 [License information](../LICENSE.md)
+
+![CC-BY-SA logo](CC-BY-SA.png)
 
 ## Specification.
 
