@@ -31,8 +31,8 @@ C4     | 100nF      | Kemet      | C1206C104K1RACTU       | Conrad     | [458125
 C5     | 100nF      | Kemet      | C1206C104K1RACTU       | Conrad     | [458125](https://www.conrad.com/ce/en/product/458125)     |
 C6     | 100nF      | Kemet      | C1206C104K1RACTU       | Conrad     | [458125](https://www.conrad.com/ce/en/product/458125)     |
 C7     | 100nF      | Kemet      | C1206C104K1RACTU       | Conrad     | [458125](https://www.conrad.com/ce/en/product/458125)     |
-C8     | 15pF       | Kemet      | C1206C150J5GACTU      | Digi-Key     | [399-1194-1-ND](https://www.digikey.com/product-detail/en/kemet/C1206C150J5GACTU/399-1194-1-ND/411469)     |
-C9     | 15pF       | Kemet      | C1206C150J5GACTU       | Digi-Key     | [399-1194-1-ND](https://www.digikey.com/product-detail/en/kemet/C1206C150J5GACTU/399-1194-1-ND/411469)     |
+C8     | 15pF       | Kemet      | C1206C150J5GACTU       | Digi-Key   | [399-1194-1-ND](https://www.digikey.com/product-detail/en/kemet/C1206C150J5GACTU/399-1194-1-ND/411469)     |
+C9     | 15pF       | Kemet      | C1206C150J5GACTU       | Digi-Key   | [399-1194-1-ND](https://www.digikey.com/product-detail/en/kemet/C1206C150J5GACTU/399-1194-1-ND/411469)     |
 C10    | 10uF/25V   | Kemet      | T491C106K025AT         | Conrad     | [458351](https://www.conrad.com/ce/en/product/458351)     |
 C11    | 100nF      | Kemet      | C1206C104K1RACTU       | Conrad     | [458125](https://www.conrad.com/ce/en/product/458125)     |
 C12    | 10uF/25V   | Kemet      | T491C106K025AT         | Conrad     | [458351](https://www.conrad.com/ce/en/product/458351)     |
@@ -61,22 +61,22 @@ PORT_A | SIL 4p     | MPE Garry  | 087-1-004-0-S-XS0-1260 | Conrad     | [733940
 PORT_B | SIL 8p     | MPE Garry  | 087-1-008-0-S-XS0-1260 | Conrad     | [734023](https://www.conrad.com/ce/en/product/734023)     |
 PORT_C | SIL 8p     | MPE Garry  | 087-1-008-0-S-XS0-1260 | Conrad     | [734023](https://www.conrad.com/ce/en/product/734023)     |
 Q1     | FET 200mA  | Rohm       | RZE002P02TL            | Digi-Key   | [RZE002P02TLCT-ND](https://www.digikey.nl/product-detail/en/rohm-semiconductor/RZE002P02TL/RZE002P02TLCT-ND/2179721) |
-R1     | 270 0.5W       | Yageo      | SR1206FR-7W270RL       | Digi-Key     | [YAG5896CT-ND](https://www.digikey.nl/product-detail/en/yageo/SR1206FR-7W270RL/YAG5896CT-ND/9373281)     | 
-R2     | 270 0.5W       | Yageo      | SR1206FR-7W270RL       | Digi-Key     | [YAG5896CT-ND](https://www.digikey.nl/product-detail/en/yageo/SR1206FR-7W270RL/YAG5896CT-ND/9373281)     |
-R3     | 270 0.5W       | Yageo      | SR1206FR-7W270RL       | Digi-Key     | [YAG5896CT-ND](https://www.digikey.nl/product-detail/en/yageo/SR1206FR-7W270RL/YAG5896CT-ND/9373281)     |
-R4     | 270 0.5W       | Yageo      | SR1206FR-7W270RL       | Digi-Key     | [YAG5896CT-ND](https://www.digikey.nl/product-detail/en/yageo/SR1206FR-7W270RL/YAG5896CT-ND/9373281)     |
+R1     | 270 0.5W   | Yageo      | SR1206FR-7W270RL       | Digi-Key   | [YAG5896CT-ND](https://www.digikey.nl/product-detail/en/yageo/SR1206FR-7W270RL/YAG5896CT-ND/9373281)     | 
+R2     | 270 0.5W   | Yageo      | SR1206FR-7W270RL       | Digi-Key   | [YAG5896CT-ND](https://www.digikey.nl/product-detail/en/yageo/SR1206FR-7W270RL/YAG5896CT-ND/9373281)     |
+R3     | 270 0.5W   | Yageo      | SR1206FR-7W270RL       | Digi-Key   | [YAG5896CT-ND](https://www.digikey.nl/product-detail/en/yageo/SR1206FR-7W270RL/YAG5896CT-ND/9373281)     |
+R4     | 270 0.5W   | Yageo      | SR1206FR-7W270RL       | Digi-Key   | [YAG5896CT-ND](https://www.digikey.nl/product-detail/en/yageo/SR1206FR-7W270RL/YAG5896CT-ND/9373281)     |
 R5     | 1k         | Yageo      | RC1206FR-071KL         | Conrad     | [402540](https://www.conrad.com/ce/en/product/402540)     |
 R6     | 1M         | Yageo      | RC1206JR-071ML         | Conrad     | [402907](https://www.conrad.com/ce/en/product/402907)     |
 R7     | 0          | Yageo      | RC1206JR-070RL         | Conrad     | [402222](https://www.conrad.com/ce/en/product/402222)     |
 R8     | 10k        | Yageo      | RC1206JR-0710KL        | Conrad     | [402664](https://www.conrad.com/ce/en/product/402664)     |
 R9     | 1k         | Yageo      | RC1206FR-071KL         | Conrad     | [402540](https://www.conrad.com/ce/en/product/402540)     |
-R10    | 150        | Yageo      | RC1206JR-07150RL       | Conrad     | [402443](https://www.conrad.com/ce/en/product/402443)     |
-R11    | 150        | Yageo      | RC1206JR-07150RL       | Conrad     | [402443](https://www.conrad.com/ce/en/product/402443)     |
+R10    | 150        | Yageo      | RC1206JR-07150RL       | Digi-Key   | [311-150ERCT-ND](https://www.digikey.com/product-detail/en/yageo/RC1206JR-07150RL/311-150ERCT-ND/732170)     |
+R11    | 150        | Yageo      | RC1206JR-07150RL       | Digi-Key   | [311-150ERCT-ND](https://www.digikey.com/product-detail/en/yageo/RC1206JR-07150RL/311-150ERCT-ND/732170)     |
 S1     | NO         |            | YST-1102S              | Conrad     | [1386949](https://www.conrad.com/ce/en/product/1386949)   |
 S2     | NO         |            | YST-1102S              | Conrad     | [1386949](https://www.conrad.com/ce/en/product/1386949)   |
 U1     | FT232RL    | FTDI       | FT232RL                | Digi-Key   | [768-1306-ND](https://www.digikey.nl/product-detail/en/ftdi-future-technology-devices-international-ltd/FT232RL-TUBE/768-1306-ND/4006920) |
-U2     | SX28AC/DP  | Parallax   | SX28AC/DP-G            | End Of Life Time | hard to find |
-U2     | DIP28-300     | MPE Garry  | 001-2-028-3-B1STF-XT0  | Conrad     | [179994](https://www.conrad.com/ce/en/product/179994)     |
+U2     | SX28AC/DP  | Parallax   | SX28AC/DP-G            |            | End Of Life Time and hard to find |
+U2     | DIP28-300  | MPE Garry  | 001-2-028-3-B1STF-XT0  | Conrad     | [179994](https://www.conrad.com/ce/en/product/179994)     |
 U3     | LM1117/5V  | TI         | LM1117IDT-N-5.0/NOPB   | Conrad     | [00126859](https://www.conrad.com/ce/en/product/00126859) |
 X1     | 50 MHz     | Citizen    | HCM4950000000ABJT      | Digi-Key   | [300-6160-1-ND](https://www.digikey.nl/product-detail/en/citizen-finedevice-co-ltd/HCM4950000000ABJT/300-6160-1-ND/284368) | 18 pF
 
