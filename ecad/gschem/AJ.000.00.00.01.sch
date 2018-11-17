@@ -12,13 +12,13 @@ page=01
 T 11500 600 5 10 1 1 0 0 1
 pages=01
 T 13900 900 5 10 1 1 0 0 1
-revision=20180630
+revision=20181117
 T 13900 600 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 10000 1400 5 10 1 1 0 0 1
 comment=Front Page
 T 10000 1600 5 10 1 1 0 0 1
-description=Arduino - Parallax SX28AC Board
+description=Arduino - Parallax/Scenix SX28AC Board
 }
 T 700 11800 9 10 1 0 0 2 37
 This hardware is released under Creative Commons Share-alike 4.0 International
