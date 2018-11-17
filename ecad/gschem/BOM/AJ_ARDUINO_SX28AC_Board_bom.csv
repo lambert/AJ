@@ -2,8 +2,8 @@ refdes	footprint	value	mfg	mfg_PN	vendor	vendor_PN	price	documentation	source	co
 U3	TO252-3N____.fp	LM1117/5V	unknown	unknown	Conrad	00126859	unknown	unknown	unknown	unknown	
 D6	DIOMELF5025X25N_Diotec_SUF4002_DO213AB_.fp	SUF4002	unknown	unknown	Conrad	556848	unknown	unknown	unknown	unknown	
 D5	DIOMELF5025X25N_Diotec_SUF4002_DO213AB_.fp	SUF4002	unknown	unknown	Conrad	556848	unknown	unknown	unknown	unknown	
-R11	RESC3216N____.fp	150	unknown	unknown	Conrad	402443	unknown	unknown	unknown	unknown	
-R10	RESC3216N____.fp	150	unknown	unknown	Conrad	402443	unknown	unknown	unknown	unknown	
+R11	RESC3216N____.fp	150	unknown	unknown	Digi-Key	311-150ERCT-ND	unknown	unknown	unknown	unknown	
+R10	RESC3216N____.fp	150	unknown	unknown	Digi-Key	311-150ERCT-ND	unknown	unknown	unknown	unknown	
 J9	CON-SIL-254P-2N____.fp	unknown	unknown	unknown	Conrad	733900	unknown	unknown	unknown	unknown	
 J5	CON-SIL-254P-2N____.fp	unknown	unknown	unknown	Conrad	733900	unknown	unknown	unknown	unknown	
 J4	CON-SIL-254P-2N____.fp	unknown	unknown	unknown	Conrad	733900	unknown	unknown	unknown	unknown	
