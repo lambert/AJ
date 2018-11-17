@@ -2,7 +2,7 @@ Order Number : 180915202001
 
 2018-09-15 14:15:01
 
-Total : $12.50
+Total : USD 12.50
 
 Ship To : Bert Timmerman
 
@@ -12,7 +12,7 @@ Fusion PCB
 
 SKU: 501010001
 
-$1.00 × 1
+USD 1.00 Ã— 1
 
 PCB Dimension - 100 mm * 100 mm
 
