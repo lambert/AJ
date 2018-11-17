@@ -4,4 +4,4 @@
 
 [Specification](docs/README.md)
 
-[First prototype](docs/purchase/SeeedTtudio/README.md)
+[First prototype](docs/purchase/SeeedStudio/README.md)
