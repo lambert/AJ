@@ -1,10 +1,10 @@
 # AJ.001.00.01.01
 
-![Top Large](AJ-001-00_top_large.png)
+![Top Large](pics/AJ-001-00_top_large.png)
 
 Top.
 
-![Bottom Large](AJ-001-00_bottom_large.png)
+![Bottom Large](pics/AJ-001-00_bottom_large.png)
 
 Bottom.
 
@@ -84,7 +84,7 @@ X1     | 50 MHz     | Citizen    | HCM4950000000ABJT      | Digi-Key   | [300-61
 
 ## Board Top
 
-![Board Top](AJ-001-00_top.png)
+![Board Top](pics/AJ-001-00_top.png)
 
 This shows the final manufactured board as if you held it in your hand.
 
@@ -100,7 +100,7 @@ There should be no dimension or measurement ruler
 
 ## Board Bottom
 
-![Board Bottom](AJ-001-00_bottom.png)
+![Board Bottom](pics/AJ-001-00_bottom.png)
 
 This shows the final manufactured board as if you held it in your hand.
 
@@ -118,7 +118,7 @@ There should be no dimension or measurement ruler
 
 Rendered from "AJ.001.00.01.01.XLN" , "AJ.001.00.01.01.TXT"
 
-![Drills](AJ-001-00_drills.png)
+![Drills](pics/AJ-001-00_drills.png)
 
 Drills should show up as white circles on a purple background.
 
@@ -145,7 +145,7 @@ We have more info on our [drills help page](http://docs.oshpark.com/submitting-o
 
 Rendered from "AJ.001.00.01.01.GTL"
 
-![Top Layer](AJ-001-00_top_copper.png)
+![Top Layer](pics/AJ-001-00_top_copper.png)
 
 We will place copper everywhere we see gold color on this layer.
 
@@ -169,7 +169,7 @@ more.
 
 Rendered from "AJ.001.00.01.01.GBL"
 
-![Bottom Layer](AJ-001-00_bottom_copper.png)
+![Bottom Layer](pics/AJ-001-00_bottom_copper.png)
 
 This layer should appear 'mirrored' as if you were looking down on it
 through the board from the top.
@@ -194,7 +194,7 @@ more.
 
 ## Bottom Solder Mask
 
-![Bottom Solder Mask](AJ-001-00_bottom_solder_mask.png)
+![Bottom Solder Mask](pics/AJ-001-00_bottom_solder_mask.png)
 
 Rendered from "AJ.001.00.01.01.GBS"
 
@@ -217,7 +217,7 @@ substrate.
 
 ## Top Solder Mask
 
-![Top Solder Mask](AJ-001-00_top_solder_mask.png)
+![Top Solder Mask](pics/AJ-001-00_top_solder_mask.png)
 
 Rendered from "AJ.001.00.01.01.GTS"
 
@@ -237,7 +237,7 @@ substrate.
 
 ## Top Silk Screen
 
-![Top Silk Screen](AJ-001-00_top_silk_screen.png)
+![Top Silk Screen](pics/AJ-001-00_top_silk_screen.png)
 
 Rendered from "AJ.001.00.01.01.GTO"
 
@@ -253,7 +253,7 @@ out our Eagle-specific [import-bmp script instructions](http://docs.oshpark.com/
 
 ## Board Outline
 
-![Board Outline](AJ-001-00_board_outline.png)
+![Board Outline](pics/AJ-001-00_board_outline.png)
 
 Rendered from "AJ.001.00.01.01.GKO"
 
