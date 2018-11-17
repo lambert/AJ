@@ -1,4 +1,4 @@
-# Scenix SX28AC/DP Board
+# Parallax/Scenix SX28AC/DP Board
 
 ![Parallax logo](Parallax_Inc_logo.png)
 
