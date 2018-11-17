@@ -6,7 +6,7 @@ Organisation: Me Organized ??
 
 Date: 20181117
 
-License: [look here](../LICENSE.md)
+License information: ![CC-BY-SA.png](../LICENSE.md)
 
 ## Specification.
 
