@@ -14,7 +14,7 @@ comment=schematic
 T 26200 1300 5 10 1 1 0 0 1
 description=Arduino - Parallax/Scenix SX28AC Board
 T 30100 600 5 10 1 1 0 0 1
-revision=20181117
+revision=20190407
 T 30100 300 5 10 1 1 0 0 1
 author=Bert Timmerman
 }
@@ -668,20 +668,20 @@ C 3200 20200 1 0 0 gnd-1.sym
 C 4500 20200 1 0 0 gnd-1.sym
 C 6100 21200 1 270 1 EMBEDDEDp-mosfet.sym
 [
-T 6100 21200 9 10 0 0 270 6 1
-use-license=unlimited
-T 6100 21200 9 10 0 0 270 6 1
-dist-license=GPL
-T 6100 21200 9 10 0 0 270 6 1
-copyright=2006 DJ Delorie
-T 6100 21200 9 10 0 0 270 6 1
-author=DJ Delorie
-P 6400 21800 6100 21800 1 0 1
+L 6650 21600 6350 21600 3 0 0 0 -1 -1
+L 6600 21600 6600 21800 3 0 0 0 -1 -1
+L 6400 21600 6400 21700 3 0 0 0 -1 -1
+L 6500 21550 6500 21500 3 0 0 0 -1 -1
+L 6600 21550 6400 21550 3 0 0 0 -1 -1
+L 6450 21700 6400 21800 3 0 0 0 -1 -1
+L 6400 21800 6350 21700 3 0 0 0 -1 -1
+L 6450 21700 6350 21700 3 0 0 0 -1 -1
+P 6500 21500 6500 21200 1 0 1
 {
-T 6400 21800 5 10 0 1 270 6 1
-pin3=3
-T 6250 21850 5 10 1 1 270 6 1
-pinnumber=2
+T 6500 21500 5 10 0 1 270 6 1
+pin2=2
+T 6550 21350 5 10 1 1 270 6 1
+pinnumber=1
 }
 P 6600 21800 6900 21800 1 0 1
 {
@@ -690,21 +690,21 @@ pin1=1
 T 6650 21850 5 10 1 1 270 6 1
 pinnumber=3
 }
-P 6500 21500 6500 21200 1 0 1
+P 6400 21800 6100 21800 1 0 1
 {
-T 6500 21500 5 10 0 1 270 6 1
-pin2=2
-T 6550 21350 5 10 1 1 270 6 1
-pinnumber=1
+T 6400 21800 5 10 0 1 270 6 1
+pin3=3
+T 6250 21850 5 10 1 1 270 6 1
+pinnumber=2
 }
-L 6450 21700 6350 21700 3 0 0 0 -1 -1
-L 6400 21800 6350 21700 3 0 0 0 -1 -1
-L 6450 21700 6400 21800 3 0 0 0 -1 -1
-L 6600 21550 6400 21550 3 0 0 0 -1 -1
-L 6500 21550 6500 21500 3 0 0 0 -1 -1
-L 6400 21600 6400 21700 3 0 0 0 -1 -1
-L 6600 21600 6600 21800 3 0 0 0 -1 -1
-L 6650 21600 6350 21600 3 0 0 0 -1 -1
+T 6100 21200 9 10 0 0 270 6 1
+author=DJ Delorie
+T 6100 21200 9 10 0 0 270 6 1
+copyright=2006 DJ Delorie
+T 6100 21200 9 10 0 0 270 6 1
+dist-license=GPL
+T 6100 21200 9 10 0 0 270 6 1
+use-license=unlimited
 ]
 {
 T 6400 22200 5 10 1 1 0 0 1
@@ -2045,96 +2045,6 @@ C 21000 7600 1 180 0 label.sym
 T 20900 7300 5 10 0 0 180 0 1
 symversion=20171027
 }
-C 19900 10200 1 0 0 nc.sym
-{
-T 19995 12110 5 8 0 0 0 0 1
-value=NoConnection
-T 19995 12310 5 8 0 0 0 0 1
-device=DRC_Directive
-T 20000 10700 5 8 0 0 0 0 1
-symversion=20140107
-}
-C 19900 9800 1 0 0 nc.sym
-{
-T 19995 11710 5 8 0 0 0 0 1
-value=NoConnection
-T 19995 11910 5 8 0 0 0 0 1
-device=DRC_Directive
-T 20000 10300 5 8 0 0 0 0 1
-symversion=20140107
-}
-C 19900 9400 1 0 0 nc.sym
-{
-T 19995 11310 5 8 0 0 0 0 1
-value=NoConnection
-T 19995 11510 5 8 0 0 0 0 1
-device=DRC_Directive
-T 20000 9900 5 8 0 0 0 0 1
-symversion=20140107
-}
-C 27200 10200 1 0 0 nc.sym
-{
-T 27295 12110 5 8 0 0 0 0 1
-value=NoConnection
-T 27295 12310 5 8 0 0 0 0 1
-device=DRC_Directive
-T 27300 10700 5 8 0 0 0 0 1
-symversion=20140107
-}
-C 27200 9400 1 0 0 nc.sym
-{
-T 27295 11310 5 8 0 0 0 0 1
-value=NoConnection
-T 27295 11510 5 8 0 0 0 0 1
-device=DRC_Directive
-T 27300 9900 5 8 0 0 0 0 1
-symversion=20140107
-}
-C 27200 9000 1 0 0 nc.sym
-{
-T 27295 10910 5 8 0 0 0 0 1
-value=NoConnection
-T 27295 11110 5 8 0 0 0 0 1
-device=DRC_Directive
-T 27300 9500 5 8 0 0 0 0 1
-symversion=20140107
-}
-C 5600 17200 1 0 0 nc.sym
-{
-T 5695 19110 5 8 0 0 0 0 1
-value=NoConnection
-T 5695 19310 5 8 0 0 0 0 1
-device=DRC_Directive
-T 5700 17700 5 8 0 0 0 0 1
-symversion=20140107
-}
-C 5600 16800 1 0 0 nc.sym
-{
-T 5695 18710 5 8 0 0 0 0 1
-value=NoConnection
-T 5695 18910 5 8 0 0 0 0 1
-device=DRC_Directive
-T 5700 17300 5 8 0 0 0 0 1
-symversion=20140107
-}
-C 5600 16600 1 0 0 nc.sym
-{
-T 5695 18510 5 8 0 0 0 0 1
-value=NoConnection
-T 5695 18710 5 8 0 0 0 0 1
-device=DRC_Directive
-T 5700 17100 5 8 0 0 0 0 1
-symversion=20140107
-}
-C 5600 16400 1 0 0 nc.sym
-{
-T 5695 18310 5 8 0 0 0 0 1
-value=NoConnection
-T 5695 18510 5 8 0 0 0 0 1
-device=DRC_Directive
-T 5700 16900 5 8 0 0 0 0 1
-symversion=20140107
-}
 C 20400 3200 1 0 0 CON-SIL-254P-8.sym
 {
 T 20600 7400 5 10 0 0 0 0 1
@@ -2404,4 +2314,74 @@ T 24500 2000 5 10 0 0 0 0 1
 symversion=20180915
 T 24500 2200 5 10 0 0 0 0 1
 footprint=NL_contour_filled_150x188.fp
+}
+C 5200 16800 1 0 0 nc-left-1.sym
+{
+T 5200 17200 5 10 0 0 0 0 1
+value=NoConnection
+T 5200 17600 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 5200 16600 1 0 0 nc-left-1.sym
+{
+T 5200 17000 5 10 0 0 0 0 1
+value=NoConnection
+T 5200 17400 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 5200 16400 1 0 0 nc-left-1.sym
+{
+T 5200 16800 5 10 0 0 0 0 1
+value=NoConnection
+T 5200 17200 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 5200 17200 1 0 0 nc-left-1.sym
+{
+T 5200 17600 5 10 0 0 0 0 1
+value=NoConnection
+T 5200 18000 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 26800 10200 1 0 0 nc-left-1.sym
+{
+T 26800 10600 5 10 0 0 0 0 1
+value=NoConnection
+T 26800 11000 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 26800 9400 1 0 0 nc-left-1.sym
+{
+T 26800 9800 5 10 0 0 0 0 1
+value=NoConnection
+T 26800 10200 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 26800 9000 1 0 0 nc-left-1.sym
+{
+T 26800 9400 5 10 0 0 0 0 1
+value=NoConnection
+T 26800 9800 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 20000 10200 1 0 0 nc-right-1.sym
+{
+T 20100 10700 5 10 0 0 0 0 1
+value=NoConnection
+T 20100 10900 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 20000 9800 1 0 0 nc-right-1.sym
+{
+T 20100 10300 5 10 0 0 0 0 1
+value=NoConnection
+T 20100 10500 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 20000 9400 1 0 0 nc-right-1.sym
+{
+T 20100 9900 5 10 0 0 0 0 1
+value=NoConnection
+T 20100 10100 5 10 0 0 0 0 1
+device=DRC_Directive
 }
