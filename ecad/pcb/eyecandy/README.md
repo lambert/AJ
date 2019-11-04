@@ -1,3 +1,5 @@
 # Eye candy
 
-[Top](AJ.001.00.00.00_top.png)
+![Top view](AJ.001.00.01.01.pcb.top.png)
+
+![Bottom view](AJ.001.00.01.01.pcb.bottom.png)
