@@ -224,7 +224,7 @@ Netlist files can be found here: [link to DRC files](../ecad/gschem/pcb_netlist/
 
 #### Bill Of Materials.
 
-...
+[link to BOM](../ecad/pcb/BOM/)
 
 #### Pick-and-Place files.
 
