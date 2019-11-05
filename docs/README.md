@@ -232,7 +232,7 @@ Netlist files can be found here: [link to DRC files](../ecad/gschem/pcb_netlist/
 
 #### IPC-D-356 netlist files.
 
-...
+[link to IPC-D-356 netlist files](../ecad/pcb/test/README.md)
 
 ## Manufacturing.
 
