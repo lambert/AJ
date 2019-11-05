@@ -9,7 +9,7 @@ notarget:
 	@echo "${MAKE} bom            Creates bom files"
 	@echo "${MAKE} gerber         Creates Gerber files"
 	@echo "${MAKE} eyecandy       Creates eyecandy files"
-	@echo "${MAKE} ps             Creates ps plotfiles"
+	@echo "${MAKE} pdf            Creates pdf plotfiles"
 	@echo "${MAKE} test           Creates IPC-D-356 testfiles"
 	@echo "${MAKE} all            Creates all of the above"
 
@@ -48,12 +48,14 @@ eyecandy: $(LAYOUTS)
 	done;
 	mv -u *.png eyecandy/
 
-ps: $(LAYOUTS)
+pdf: $(LAYOUTS)
 	for S in $(LAYOUTS); \
 	do \
 	pcb -x ps --media A4 --align-marks --outline --drill-copper --drill-helper --show-legend --psfile $$S.ps $$S; \
+	ps2pdf -dOptimize=true -dUseFlateCompression=true -sPAPERSIZE=a4 $$S.ps $$S.pdf; \
 	done;
-	mv -u *.ps plotfiles/
+	rm -f *.ps
+	mv -u *.pdf plotfiles/
 
 test: $(LAYOUTS)
 	for S in $(LAYOUTS); \
@@ -64,7 +66,7 @@ test: $(LAYOUTS)
 
 .DEFAULT_GOAL := notarget
 
-all: bom gerber eyecandy ps test
+all: bom gerber eyecandy pdf test
 
 # EOF #
 
