@@ -2,7 +2,7 @@
 
 ## Schematics
 
-[Front page](AJ.000.00.01.01.sch)
+[Front page](AJ.000.00.00.01.sch)
 
 [Arduino Parallax/Scenix SX28AC Board - schematic](AJ.001.00.01.01.sch)
 
