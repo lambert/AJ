@@ -15,3 +15,11 @@ Schematic entry requires [gschem version 1.6.2-20110115](http://wiki.geda-projec
 [ECO-001](ECO-001.md)
 
 [ECO-002](ECO-002.md)
+
+## Generated files
+
+[Bill Of Materials](BOM/README.md)
+
+[Design Rule Checking reports](DRC/README.ms)
+
+[Netlist Checking reports](geda-netlist/README.md)
