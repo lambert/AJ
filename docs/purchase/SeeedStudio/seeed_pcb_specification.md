@@ -1,4 +1,6 @@
-# Fusion PCB Gerber Specification
+# Fusion PCB Specification
+
+## PCB Gerber
 
 The Gerber format is an open 2D binary vector image file format.
 It is the standard file used by printed circuit board (PCB) industry software to describe
