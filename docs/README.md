@@ -240,7 +240,7 @@ Netlist files can be found here: [link to DRC files](../ecad/gschem/pcb_netlist/
 
 #### Quotations.
 
-[link to SeeedStudio fabrication services](purchase/SeeedStudio/fabrication_services.md)
+[link to SeeedStudio fabrication services](purchase/SeeedStudio/fusion_pcb_specification.md)
 
 [link to OSH Park fabrication services](purchase/OSH_Park/fabrication_services.md)
 
