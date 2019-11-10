@@ -18,15 +18,15 @@ Gerber files should be inside a .rar or.zip archive with standard file extension
 | pcbname.GBO | Bottom Silkscreen |
 | pcbname.TXT | Drills |
 | pcbname.GML/GKO | Board Outline |
-| pcbname.GL2 | Inner Layer2( for ≥4 layer) |
-| pcbname.GL3 | Inner Layer3( for ≥4 layer) |
+| pcbname.GL2 | Inner Layer2 (for ≥4 layer) |
+| pcbname.GL3 | Inner Layer3 (for ≥4 layer) |
 
 Notes:
 
 1. Gerber file must be the RS-274x format.
 
-2. Drill file(PCBname.TXT) should be Excellon format.
+2. Drill file (PCBname.TXT) should be Excellon format.
 
-3. Gerber file and Drill file(PCB name.TXT) must be put in the same folder.
+3. Gerber file and Drill file (PCB name.TXT) must be put in the same folder.
 
 4. Board outline is required.
