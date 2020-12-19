@@ -1,7 +1,9 @@
 # AJ SX28AC/DP board with an Arduino UNO R3 form factor
 
-[License information](LICENSE.md)
+[Documentation](docs/README.md).
 
-[Specification](docs/README.md)
+[Electrical CAD files](ecad/README.md)
 
-[First prototype](docs/purchase/SeeedStudio/README.md)
+[Mechanical CAD files](mcad/README.md)
+
+![CC BY-SA](cc-by-sa.png)
